@@ -21,7 +21,7 @@ steps:
       - update
       - $_SERVICE_NAME
       - --project=$_SERVICE_PROJECT
-      - --region=eu-central1
+      - --region=us-central1
       - --image=$_SERVICE_IMAGE
 
 images: # Display the image in the build results - Build Artifacts
