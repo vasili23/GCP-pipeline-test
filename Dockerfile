@@ -1,6 +1,6 @@
 FROM ubuntu:21.04
 
-RUN apt-get -y update
+RUN apt-get update
 RUN apt-get -y install apache2
 
 RUN echo 'Docker Image on CloudRun of Vaska!<br>'   > /var/www/html/index.html
